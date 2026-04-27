@@ -1,0 +1,34 @@
+.Phonetic {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.Phonetic .audio-button {
+  background-color: #f0f4ff;
+  color: #007bff;
+  border: 1px solid #d0dfff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+  margin-right: 15px;
+  font-size: 18px;
+}
+
+.Phonetic .audio-button:hover {
+  background-color: #007bff;
+  color: white;
+  transform: scale(1.1);
+}
+
+.Phonetic .text {
+  font-family: 'Inter', sans-serif;
+  color: #6c757d;
+  font-size: 16px;
+  font-style: italic;
+}

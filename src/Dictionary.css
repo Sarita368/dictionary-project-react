@@ -1,3 +1,23 @@
-.Dictionary {
-    margin-top: 30px;
+.Dictionary section {
+    background: white;
+    margin-bottom: 25px;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.Dictionary input {
+    width: 100%;
+    padding: 15px 25px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.Dictionary input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.15);
+    outline: none;
 }
