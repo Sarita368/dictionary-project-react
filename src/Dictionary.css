@@ -1,23 +1,50 @@
+.Dictionary {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.Dictionary-header {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.main-title {
+  color: #1a2a6c !important;
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 20px;
+  text-align: center;
+}
+
 .Dictionary section {
-    background: white;
-    margin-bottom: 25px;
-    padding: 30px;
-    border-radius: 16px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  background: white;
+  margin-bottom: 25px;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
 }
 
 .Dictionary input {
-    width: 100%;
-    padding: 15px 25px;
-    font-size: 18px;
-    border: 1px solid #ccc;
-    border-radius: 30px;
-    outline: none;
-    transition: all 0.3s ease;
+  width: 100%;
+  padding: 15px 25px;
+  font-size: 18px;
+  border: 1px solid #ced4da;
+  border-radius: 30px;
+  outline: none;
+  transition: all 0.3s ease;
 }
 
 .Dictionary input:focus {
-    border-color: #007bff;
-    box-shadow: 0 0 10px rgba(0, 123, 255, 0.15);
-    outline: none;
+  border-color: #1a2a6c !important;
+  box-shadow: 0 0 0 0.25rem rgba(26, 42, 108, 0.25) !important;
+  outline: none;
+}
+
+footer, .coded-by {
+  color: #757575;
+  font-size: 12px;
+  margin-top: 40px;
+  text-align: center;
 }
